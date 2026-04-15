@@ -1,0 +1,53 @@
+.formacao {
+  background: #0f0a1f;
+  padding: 5rem 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.formacao h2 {
+  font-size: 2.2rem;
+  margin-bottom: 3rem;
+}
+
+
+.formacao_container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+
+.formacao_card {
+  background: #060011;
+  padding: 1.5rem;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+
+.formacao_card:hover {
+  transform: translateY(-8px);
+  border: 1px solid #5516BE;
+  box-shadow: 0 0 20px rgba(85, 22, 190, 0.3);
+}
+
+.formacao_card h3 {
+  color: #ad79e2;
+  margin-bottom: 0.5rem;
+}
+
+
+.formacao_card p {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+
+.formacao_card.destaque {
+  border: 1px solid #5516BE;
+  box-shadow: 0 0 25px rgba(85, 22, 190, 0.4);
+}

@@ -1,0 +1,21 @@
+
+@import url('nav.css');
+@import url('./about.css');
+@import url('./project.css');
+@import url('./abaume.css');
+@import url('./skil.css');
+@import url('./formacao.css');
+@import url('./contato.css');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html{
+      padding-top: 80px;
+        scroll-behavior: smooth;
+}
+section {
+  scroll-margin-top: 100px;
+}
