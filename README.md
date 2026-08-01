@@ -1,4 +1,4 @@
-# 🚀 Portfólio - João Vitor Gonçalves
+# 🚀 Portifolio - João Vitor Gonçalves
 
 Aplicação web desenvolvida para apresentar meus projetos, habilidades e evolução como desenvolvedor.
 
